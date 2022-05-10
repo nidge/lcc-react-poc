@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import { Col, Row, Form, Button } from "react-bootstrap";
 
-class TempForm extends Component{
+class TempForm extends Component {
 
-    back  = (e) => {
+    back = (e) => {
         e.preventDefault();
         this.props.prevStep();
     }
@@ -15,22 +15,22 @@ class TempForm extends Component{
     };
 
     render() {
-        return( <Container>
-                    <Form>
-                        <Form.Row>
-                            <Form.Group as={Col} controlId="formFirstName">
-                                <Form.Label className="label">First Name</Form.Label>
-                                <Form.Control
-                                type="text"
-                                name="firstName"
-                                required
-                                onChange={this.props.handleChange}
-                                />
-                            </Form.Group>
-                        </Form.Row>
-                        <Button variant="primary" onClick={this.saveAndContinue}>Next</Button>
-                    </Form>
-                </Container>
+        return (<Container>
+            <Form>
+                <Form.Row>
+                    <Form.Group as={Col} controlId="formFirstName">
+                        <Form.Label className="label">First Name</Form.Label>
+                        <Form.Control
+                            type="text"
+                            name="firstName"
+                            required
+                            onChange={this.props.handleChange}
+                        />
+                    </Form.Group>
+                </Form.Row>
+                <Button variant="primary" onClick={this.saveAndContinue}>Next</Button>
+            </Form>
+        </Container>
         );
     }
 }
