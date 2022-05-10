@@ -1,3 +1,12 @@
+This was created by following some of the techniques shown [here]
+(https://ordinarycoders.com/blog/article/react-bootstrap-forms)
+and [here]
+(https://medium.com/@gulikholmatova/building-a-serverless-react-app-using-aws-lambda-dynamodb-and-an-api-gateway-f846696f34cd)
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
