@@ -33,7 +33,7 @@ class UserDetails extends Component {
                     </Form.Group>
 
                     <Form.Group as={Col} controlId="formEmail">
-                        <Form.Label className="label">Email Address</Form.Label>
+                        <Form.Label className="label">Email Address.</Form.Label>
                         <Form.Control
                             type="email"
                             defaultValue={this.props.inputValues.email}
