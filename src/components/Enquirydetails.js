@@ -19,8 +19,8 @@ class Enquirydetails extends Component {
             <Form>
                 <Form.Group controlId="enquirydetails">
                     <Form.Label>Enquiry details</Form.Label>
-                    <Form.Control
-                        type="text"
+                    <Form.Control  as="textarea" rows={3}
+                        //type="text"
                         defaultValue={this.props.inputValues.enquirydetails}
                         name="enquirydetails"
                         required
